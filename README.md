@@ -9,7 +9,7 @@ Bug: Method allows for duplicate ISBN-numbers.
 Bug: Book was removed despite being borrowed. 
 
 [LibrarySystem.cs]/[SearchByTitle]/Line 55~
-Bug: Incomplete and lower case titles don't get added to list. 
+Bug: Incomplete and lowercase titles don't get added to list. 
 
 [LibrarySystem.cs]/[BorrowBook]/Line 65~
 Bug: Books that are already borrowed are given a new borrow date. 
